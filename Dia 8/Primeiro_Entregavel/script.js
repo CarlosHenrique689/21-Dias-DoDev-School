@@ -6,7 +6,7 @@
 let numeroPrimario = undefined
 let numeroSecundario = undefined
 
-function Calculadora(numeroPrimario, numeroSecundario, operador){
+function Calculadora(numeroPrimario, numeroSecundario, operador) {
 
   numeroPrimario = parseFloat(numeroPrimario)
   numeroSecundario = parseFloat(numeroSecundario)
