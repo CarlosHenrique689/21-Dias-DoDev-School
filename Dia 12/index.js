@@ -95,7 +95,7 @@ while(confirmaçãoWhileGlobal){
 
             excluirUsuário = arrayNomes.indexOf(excluirUsuário);
 
-            if(excluirUsuário != -1){arrayNomes.splice(arrayNomes[excluirUsuário], 1); arraySenhas.splice(arraySenhas[excluirUsuário], 1); indiceNomes--; indiceSenhas--;
+            if(excluirUsuário != -1){arrayNomes.splice(excluirUsuário, 1); arraySenhas.splice(excluirUsuário, 1); indiceNomes--; indiceSenhas--;
                 escolhaDeAçãoDoUsuário = Number(prompt('Cadastro EXCLUIDO com SUCESSO! Insira "1" para CADASTRAR um novo usuário. "2" para fazer LOGIN. "3" para EXCLUIR outro cadastro. Ou "4" para ENCERRAR o programa.'))}                               
             else{escolhaDeAçãoDoUsuário = Number(prompt('Falha na tentativa de EXCLUIR cadastro. Insira "1" para CADASTRAR um novo usuário. "2" para fazer LOGIN. "3" para EXCLUIR um cadastro. Ou "4" para ENCERRAR o programa.'))};
             break;
