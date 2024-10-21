@@ -3,9 +3,9 @@ let idade = parseInt(prompt('Por favor, digite a sua idade.'))
 let altura = Number(prompt('Por favor, digite a sua altura. (Use Ponto ao invés de vírgula.)'))
 let peso = parseInt(prompt('Por favor, digite o seu peso.'))
 
-if(isNaN(idade)){console.log('Ops, ouve algum erro no campo de "Digitar sua idade". Por favor, volte e tente novamente.')}
-    else if(isNaN(altura)){console.log('Ops, Ouve algum erro no campo de "Digitar sua altura". Por favor, volte e tente novamente.')}
-        else if(isNaN(peso)){console.log('Ops, Ouve algum erro no campo de "Digitar seu peso". Por favor, volte e tente novamente.')}
+if(isNaN(idade)){console.log('Ops, Houve algum erro no campo de "Digitar sua idade". Por favor, volte e tente novamente.')}
+    else if(isNaN(altura)){console.log('Ops, Houve algum erro no campo de "Digitar sua altura". Por favor, volte e tente novamente.')}
+        else if(isNaN(peso)){console.log('Ops, Houve algum erro no campo de "Digitar seu peso". Por favor, volte e tente novamente.')}
             else{let anoDeNascimento = 2023-idade
                  let IMC = parseInt(peso / (altura * altura))
 
